@@ -1,0 +1,10 @@
+# This file documents the webhook configuration
+# Manual webhook setup required in GitHub repository settings:
+# 1. Go to Settings > Webhooks > Add webhook
+# 2. Payload URL: http://your-jenkins-url:8080/github-webhook/
+# 3. Content type: application/json
+# 4. Select: Just the push event
+# 5. Active: checked
+
+# Jenkins Job: Microservice_One_Pipeline
+# Triggers on: Push to main branch
